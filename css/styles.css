@@ -10051,6 +10051,39 @@ html {
   font-weight: 800;
 }
 
+/* Menu Bar */
+#menubar-wrapper {
+  width: 100%;
+  height: 70px;
+  background: #1D809F;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.menubar-nav {
+  margin: 0;
+  padding: 10;
+  height: 70px;
+}
+
+.menubar-nav li.menubar-nav-item {
+  display: inline-block;
+  list-style: none;
+  line-height: 70px;
+}
+
+.menubar-nav li.menubar-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.menubar-nav li.menubar-nav-item a:hover {
+  color: #ecb807;
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
