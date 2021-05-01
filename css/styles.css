@@ -10054,8 +10054,8 @@ html {
 /* Menu Bar */
 #menubar-wrapper {
   width: 100%;
-  height: 70px;
-  background: #343a40;
+  height: 60px;
+  background: #fff;
   opacity: 90%;
   position: fixed;
   top: 0;
@@ -10065,24 +10065,42 @@ html {
 .menubar-nav {
   margin: 0;
   padding: 10;
-  height: 70px;
+  height: 60px;
 }
 
 .menubar-nav li.menubar-nav-item {
   display: inline-block;
   list-style: none;
-  line-height: 70px;
+  line-height: 60px;
 }
 
 .menubar-nav li.menubar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  text-transform: uppercase;
+  font-size: small;
+  color: #343a40;
   padding: 0 20px;
 }
 
 .menubar-nav li.menubar-nav-item a:hover {
   color: #ecb807;
+}
+
+.menubar-nav li.menubar-brand {
+  display: inline-block;
+  list-style: none;
+  line-height: 60px;
+}
+
+.menubar-nav li.menubar-brand a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: 700;
+  color: #ecb807;
+  padding: 0 20px;
 }
 
 /* Side Menu */
