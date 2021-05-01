@@ -10055,7 +10055,8 @@ html {
 #menubar-wrapper {
   width: 100%;
   height: 70px;
-  background: #1D809F;
+  background: #343a40;
+  opacity: 90%;
   position: fixed;
   top: 0;
   z-index: 999;
