@@ -2500,6 +2500,18 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(239, 195, 44, 0.5);
 }
 
+.btn-empty {
+  border-color: #fff;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 0.8;
+  font-size: small;
+}
+
+.btn-empty:hover {
+  background-color: #fff;
+}
+
 .btn-success {
   color: #fff;
   background-color: #28a745;
@@ -7517,7 +7529,7 @@ button.bg-dark:focus {
 
 .mb-0,
 .my-0 {
-  margin-bottom: 0 !important;
+  margin-bottom: 10 !important;
 }
 
 .ml-0,
@@ -10215,12 +10227,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #343a40;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #ecb807;
   text-decoration: none;
 }
 
@@ -10247,7 +10259,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10333,11 +10345,17 @@ footer.footer .social-link:hover {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #ecb807;
   height: 7rem;
   width: 7rem;
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.service-icon:hover {
+  background-color: #343a40;
+  color: #fff;
+  text-decoration: none;
 }
