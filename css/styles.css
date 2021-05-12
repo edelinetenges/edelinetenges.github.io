@@ -10115,6 +10115,16 @@ html {
   padding: 0 20px;
 }
 
+@media only screen and (max-width: 767px) {
+  #menubar-wrapper {
+    display: none;
+  }
+  
+  .menubar-nav {
+    display: none;
+  }
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
@@ -10124,7 +10134,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #ecb807;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10140,6 +10150,7 @@ html {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
+  text-transform: uppercase;
   color: #fff;
   padding: 15px;
 }
@@ -10178,6 +10189,20 @@ html {
   right: 250px;
   width: 250px;
   transition: all 0.4s ease 0s;
+}
+
+@media only screen and (min-width: 768px) {
+  #sidebar-wrapper {
+    display: none;
+  }
+
+  .sidebar-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
 }
 
 .menu-toggle {
