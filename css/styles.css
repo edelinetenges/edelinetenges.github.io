@@ -2450,6 +2450,11 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-gradient {
+  color: #fff;
+  background-image: linear-gradient(45deg, #F28332, #FFDB5E);
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1D809F;
@@ -6147,7 +6152,7 @@ button.bg-secondary:focus {
 }
 
 .bg-gradient {
-  background-color: linear-gradient(45deg, #F28332, #FFDB5E) !important;
+  background-image: linear-gradient(45deg, #F28332, #FFDB5E) !important;
 }
 
 .bg-success {
@@ -6201,7 +6206,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #3E352D !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9829,6 +9834,20 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-gradient {
+  /* color: linear-gradient(45deg, #F28332, #FFDB5E) !important; */
+  background: -webkit-linear-gradient(#F28332, #FFDB5E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a.text-gradient:hover, a.text-primary:focus {
+  /* color: linear-gradient(45deg, #F28332, #FFDB5E) !important; */
+  background: -webkit-linear-gradient(#F28332, #FFDB5E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .text-primary {
   color: #1D809F !important;
 }
@@ -10303,8 +10322,10 @@ footer.footer .social-link:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
+  padding-top: 6rem;
   padding-bottom: 8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   /* background: linear-gradient(45deg, #F28332, #FFDB5E); */
   background-position: center center;
   background-repeat: no-repeat;
@@ -10317,6 +10338,7 @@ footer.footer .social-link:hover {
 }
 @media (min-width: 992px) {
   .masthead {
+    padding-top: 8rem;
     height: 100vh;
   }
   .masthead h1 {
