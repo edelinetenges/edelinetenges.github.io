@@ -10369,7 +10369,7 @@ footer.footer .social-link:hover {
 @media (min-width: 992px) {
   .head {
     /* height: 100vh; */
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-left: 8rem;
     padding-right: 8rem;
   }
