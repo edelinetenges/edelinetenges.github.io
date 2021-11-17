@@ -10412,6 +10412,12 @@ footer.footer .social-link:hover {
   margin: 0;
   padding: 0;
 }
+.masthead p {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
 @media (min-width: 992px) {
   .masthead {
     padding-top: 8rem;
@@ -10419,6 +10425,11 @@ footer.footer .social-link:hover {
   }
   .masthead h1 {
     font-size: 5.5rem;
+  }
+  .masthead p {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    text-align: center;
   }
 }
 
@@ -10445,6 +10456,11 @@ footer.footer .social-link:hover {
   padding: 0;
   font-style: italic;
 }
+.head p {
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
 @media (min-width: 992px) {
   .head {
     padding-top: 4rem;
@@ -10452,7 +10468,7 @@ footer.footer .social-link:hover {
     padding-right: 8rem;
   }
   .head h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
   }
 }
 
@@ -10470,6 +10486,10 @@ footer.footer .social-link:hover {
 
 .box-item p {
   font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .portfolio-item {
