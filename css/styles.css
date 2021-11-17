@@ -581,6 +581,18 @@ pre code {
     max-width: 1140px;
   }
 }
+
+.logo {
+  width: 30%;
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    width: 15%;
+  }
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
